@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>title</key>
+    <string>NoWallpaperZoomAnimation</string>
+    <key>entry</key>
+    <dict>
+      <key>cell</key>
+      <string>PSLinkCell</string>
+      <key>icon</key>
+      <string>NWZA.png</string>
+      <key>label</key>
+      <string>NoWallpaperZoomAnimation</string>
+    </dict>
+    <key>items</key>
+    <array>
+      <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>footerText</key>
+        <string>If "Up to reduce motion" option enabled, the wallpaper animation will not animate when reduce motion is on.</string>
+      </dict>
+       <dict>
+        	<key>cell</key>
+        	<string>PSSwitchCell</string>
+        	<key>default</key>
+        	<true/>
+        	<key>defaults</key>
+        	<string>com.apple.springboard</string>
+        	<key>key</key>
+        	<string>SBUINoWallpaperZoomAnimation</string>
+        	<key>label</key>
+        	<string>Enable Tweak</string>
+      </dict>
+      <dict>
+        	<key>cell</key>
+        	<string>PSSwitchCell</string>
+        	<key>default</key>
+        	<false/>
+        	<key>defaults</key>
+        	<string>com.apple.springboard</string>
+        	<key>key</key>
+        	<string>SBUINoWallpaperZoomAnimationUpToMotion</string>
+        	<key>label</key>
+        	<string>Up to reduce motion</string>
+      </dict>
+       <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>footerAlignment</key>
+        <integer>1</integer>
+        <key>footerText</key>
+        <string>© 2013 - 2014 Thuchapol Unprasert
+(@PoomSmart)</string>
+      </dict>
+    </array>
+  </dict>
+</plist>

@@ -1,0 +1,9 @@
+Name: NoWallpaperZoomAnimation
+Package: org.thebigboss.nowallpaperzoomanimation
+Author: PoomSmart
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Section: Tweaks
+Version: 1.0
+Architecture: iphoneos-arm
+Description: No more wallpaper zooming animation!
