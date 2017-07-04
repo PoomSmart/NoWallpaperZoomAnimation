@@ -6,4 +6,4 @@ Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
 Section: Tweaks
 Version: 1.0
 Architecture: iphoneos-arm
-Description: No more wallpaper zooming animation!
+Description: No more wallpaper zooming animation.
